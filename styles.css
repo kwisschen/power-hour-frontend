@@ -196,7 +196,7 @@ body {
 }
 
 /* All hovers */
-@media (hover: hover) or (pointer: coarse) or (pointer: fine) {
+@media (hover: hover) or (any-pointer: coarse) or (any-pointer: fine) {
     .card:hover {
         height: 450px;
     }
